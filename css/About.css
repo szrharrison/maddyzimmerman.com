@@ -1,0 +1,63 @@
+html {
+	font-family: Josefin Sans, sans-serif;
+}
+h1 {
+	font-family:Dosis, sans-serif;
+	font-weight:500;
+}
+a {
+	text-decoration:none;
+	color:inherit;
+}
+a:hover {
+	text-decoration:none;
+	color:inherit;
+}
+
+/* Nav Bar */
+.navi {
+	background-color:rgba(0,0,0,.65);
+	width:5vw;
+	height:100vh;
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	text-align:left;
+	color:#fff;
+	padding-top:30vh;
+	overflow:hidden;
+}
+.navi.open {
+	width:20vw;
+}
+.navi h1 {
+	padding: 1vh 0 1vh 5.5vw;
+	margin:0;
+	font-size:3.6vw;
+	max-width:20vw;
+}
+.navi.open h1:hover {
+	background-color:#000;
+	cursor:pointer;
+}
+.menu {
+	height:35vh;
+	margin:0;
+}
+.span {
+	height:5vh;
+	font-size:3vw;
+	left:0;
+	margin-left:1vw;
+	padding-top:28vh;
+}
+.iconmenu {
+	display:inline-block;
+}
+.iconx {
+	display:none;
+}
+.navi span:hover {
+	cursor:pointer;
+}

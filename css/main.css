@@ -1,0 +1,128 @@
+/* Main CSS */
+
+/* Color Scheme
+Base color: #7D9E5B, RGBa(125,158,91)
+Triad color: #6B4033, RGBa(107,64,51) */
+
+/* General */
+	html {
+		font-family: Josefin Sans, sans-serif;
+	}
+	h1 {
+		font-family:Dosis, sans-serif;
+		font-weight:500;
+	}
+	a {
+		text-decoration:none;
+		color:inherit;
+	}
+	a:hover {
+		text-decoration:none;
+		color:inherit;
+	}
+
+/* Intro */
+	.intro {
+		background-image: url('../img/home-background.jpg');
+		background-size:cover;
+		text-align:center;
+		height:100vh;
+		background-position-x:50%;
+		background-position-y:50%;
+	}
+	.intro h1 {
+		margin:0;
+		padding-top:45vh;
+		font-size:8vh;
+		display:inline-block;
+	}
+
+/* Nav Bar */
+	.navi {
+		background-color:rgba(0,0,0,.65);
+		width:5vw;
+		height:100vh;
+		position:fixed;
+		top:0;
+		bottom:0;
+		left:0;
+		text-align:left;
+		color:#fff;
+		padding-top:30vh;
+		overflow:hidden;
+		z-index:5;
+	}
+	.navi.open {width:20vw;}
+	.navi h1 {
+		padding: 1vh 0 1vh 5.5vw;
+		margin:0;
+		font-size:3.6vw;
+		max-width:20vw;
+	}
+	.navi.open h1:hover {
+		background-color:#000;
+		cursor:pointer;
+	}
+	.menu {
+		height:35vh;
+		margin:0;
+	}
+	.span {
+		height:5vh;
+		font-size:3vw;
+		left:0;
+		margin-left:1vw;
+		padding-top:28vh;
+	}
+	.iconmenu {display:inline-block;}
+	.iconx {display:none;}
+	.navi span:hover {cursor:pointer;}
+
+/* Scroll Button */
+	.mup,.mdown:hover {
+		cursor:pointer;
+	}
+	.mup,.mdown {
+		display:inline-block;
+		float:right;
+		right:2vw;
+		position:fixed;
+		z-index:5;
+		font-size:5vh;
+
+	}
+	.mup {
+		display:none;
+		top:43.5vh;
+	}
+	.mdown {
+		bottom:43.5vh;
+		top:initial;
+	}
+
+/* Samples */
+	.sample {
+		position:relative;
+		height:100vh;
+		background-size:cover;
+		left:0;
+		margin:0;
+		text-align:center;
+	}
+	.linkbtn {
+		text-align:center;
+		display:inline-block;
+	}
+	.all-works {
+		position:relative;
+		height:100vh;
+		background-size:cover;
+		left:0;
+		margin:0;
+		text-align:center;
+		background-color:#000;
+		color:#fff;
+		padding-top:40vh;
+	}
+	.all-works h1 {
+	}
